@@ -1,0 +1,10 @@
+package-lock.json
+
+# Built code
+lib/
+
+# Downloaded dependencies
+node_modules/
+
+# WebStorm generated files
+.idea
