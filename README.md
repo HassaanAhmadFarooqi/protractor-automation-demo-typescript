@@ -22,15 +22,14 @@ for the JavaScript version of the same.
     ```
     npm run test
     ```
-  It'll first transpile typescript into javascript and then will run the test
-  (Check 
-  [package.json](package.json) 
-  for more details).
+    It'll first transpile typescript into javascript and then will run the test
+    (Check 
+    [package.json](package.json) 
+    for more details).
 
 *Note:* If you're using 
 [VSCode](https://code.visualstudio.com/), 
-then you can run the program using VScode's Run Button also, 
-but you'll need to transpile typescript before that i.e. `npm run tsc`.
-
+then you can run the program using VScode's Run Button also.  
 (Configurations for running using Run button are present in 
-[.vscode/launch.json](.vscode/launch.json))
+[.vscode/launch.json](.vscode/launch.json)
+)
