@@ -1,5 +1,5 @@
 {
-    "name": "protractor-automation-typescript-demo",
+    "name": "protractor-automation-demo-typescript",
     "version": "1.0.0",
     "description": "Protractor Automation Demo using TypeScript",
     "main": "conf.js",
@@ -8,8 +8,16 @@
         "pretest": "npm run tsc",
         "test": "protractor lib/conf.js"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HassaanAhmadFarooqi/protractor-automation-demo-typescript.git"
+    },
     "author": "Hassaan Ahmad Farooqi",
     "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/HassaanAhmadFarooqi/protractor-automation-demo-typescript/issues"
+    },
+    "homepage": "https://github.com/HassaanAhmadFarooqi/protractor-automation-demo-typescript#readme",
     "dependencies": {
         "@types/jasmine": "^3.5.14",
         "@types/node": "^14.6.2",
