@@ -5,6 +5,7 @@
     "main": "conf.js",
     "scripts": {
         "tsc": "tsc",
+        "webdriver-update": "webdriver-manager update",
         "pretest": "npm run tsc",
         "test": "protractor lib/conf.js"
     },
@@ -25,6 +26,7 @@
         "jasmine-spec-reporter": "^5.0.2",
         "protractor": "^7.0.0",
         "ts-node": "^9.0.0",
-        "typescript": "^4.0.2"
+        "typescript": "^4.0.2",
+        "webdriver-manager": "^12.1.7"
     }
 }
